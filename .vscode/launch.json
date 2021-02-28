@@ -1,0 +1,24 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "PowerShell: Launch Check-spam",
+      "type": "PowerShell",
+      "request": "launch",
+      "script": "./check-spam.ps1",
+      "args": ["-BlogId 3427010633633716171 -APIKey AIzaSyD_WYAgRCXGr2367KULHae9GYF4NYAlVBo"],
+      "cwd": "."
+    },
+    {
+      "name": "PowerShell: Launch remove-spam",
+      "type": "PowerShell",
+      "request": "launch",
+      "script": "./remove-spam.ps1",
+      "args": ["-BlogId 3427010633633716171 -APIKey AIzaSyD_WYAgRCXGr2367KULHae9GYF4NYAlVBo"],
+      "cwd": "."
+    }
+  ]
+}
