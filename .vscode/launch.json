@@ -5,19 +5,11 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "PowerShell: Launch Check-spam",
-      "type": "PowerShell",
-      "request": "launch",
-      "script": "./check-spam.ps1",
-      "args": ["-BlogId 3427010633633716171 -APIKey AIzaSyD_WYAgRCXGr2367KULHae9GYF4NYAlVBo"],
-      "cwd": "."
-    },
-    {
       "name": "PowerShell: Launch remove-spam",
       "type": "PowerShell",
       "request": "launch",
       "script": "./remove-spam.ps1",
-      "args": ["-BlogId 3427010633633716171 -APIKey AIzaSyD_WYAgRCXGr2367KULHae9GYF4NYAlVBo"],
+      "args": ["-BlogId your_blog_id -ClientId your_oauth2_clientid_here -ClientSecret your_oauth2_client_secret_here"],
       "cwd": "."
     }
   ]
